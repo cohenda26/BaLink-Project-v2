@@ -1,0 +1,135 @@
+* {
+	outline: 0;
+  }
+  
+.App {
+	font-family: sans-serif;
+}
+  
+h1 {
+	text-align: center;
+}
+
+  .containerApp {
+	display: flex;
+	text-align: center;
+	align-items: center;
+	flex-direction: column;
+  }
+
+  .container {
+	  margin:30px Opx 0px 0px;
+  }
+
+  input, select {
+	display: block;
+	min-width: 90%;
+	margin: 1em;
+	padding: 1em;
+	min-width: 30em;
+	border-radius: 8px;
+	border-style: none;
+	border: 1px solid #e4e6e8;
+	transition: 0.1s ease;
+  }
+  
+  input:hover, select:hover {
+	border-color: #280aad;
+  }
+  
+  button, input[type=submit] {
+	margin: 0.8em;
+	padding: 1em;
+	border: 1px solid #280aad;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: 0.1s ease-in;
+	display: inline-block;
+    min-width: 20%;
+  }
+  
+  button:hover, input[type=submit]:hover {
+	background-color: #280aad;
+	color: white;
+  }
+  
+  .hidden  {
+	display:  none;
+	}
+
+/* ****STYLE FOR STEPPER ********************************************************* */
+.steps  {
+	margin:  0  auto;
+	margin-bottom:  40px;
+	min-width: 90%;
+}
+
+.steps ul {
+	display:  flex;
+	justify-content:  space-between;
+	align-items:  flex-end;
+	margin:  0  auto;
+	margin-bottom:  5px;
+}
+
+.steps li {
+	text-align:  center;
+	display : inline-block;
+	justify-content : center;
+	align-items: center;	
+}
+
+.step  {
+	text-align:  center;	
+}
+
+.step .bullet  {
+	border: 1px solid #280aad;
+	height: 30px;
+	width: 30px;
+	border-radius: 100%;
+	color: #280aad;
+	transition: background-color 500ms;
+	line-height:30px;
+	margin: 0 auto 10px auto;
+}
+
+.step.active .bullet  {
+	color:  white;
+	background-color:  #280aad;
+}
+
+.step-text  {
+	color:  #280aad;
+	overflow-wrap: break-word;
+	padding: 20px 10px 0px 10px;
+	font-size: small;
+}
+
+.step.active .divider-line{
+    height: 1px;
+    background-color: #280aad;
+    position: relative;
+    bottom: 26px;
+}
+
+.divider-line-1 {
+	width: 160%;
+	left: 80%;
+}
+
+.divider-line-2 {
+	width: 80%;
+	left: 70%;
+}
+
+/*  LANGUE */
+.lang {
+	position :fixed;
+	right: 30px;
+	top:5px;
+}
+
+.lang select {
+	min-width: auto;
+} 
